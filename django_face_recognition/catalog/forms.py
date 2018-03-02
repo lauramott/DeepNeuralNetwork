@@ -6,8 +6,6 @@ import imageio
 import sys
 
 
-
-# Get Face Detector from dlib
 # This allows us to detect faces in images
 face_detector = dlib.get_frontal_face_detector()
 # Get Pose Predictor from dlib
